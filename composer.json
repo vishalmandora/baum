@@ -1,32 +1,41 @@
 {
-  "name": "vishalmandora/baum",
-  "type": "library",
-  "description": "Baum is an implementation of the Nested Set pattern for Eloquent models.",
-  "keywords": ["nested set", "laravel", "laravel 4", "laravel 5", "eloquent", "database"],
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Vishal Mandora",
-      "email": "v_mandora@yahoo.com",
-      "homepage": "https://github.com/vishalmandora/baum"
+    "name": "vishalmandora/baum",
+    "type": "library",
+    "description": "Baum is an implementation of the Nested Set pattern for Eloquent models.",
+    "keywords": [
+        "nested set",
+        "laravel",
+        "laravel 4",
+        "laravel 5",
+        "laravel 6",
+        "laravel 7",
+        "eloquent",
+        "database"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vishal Mandora",
+            "email": "v_mandora@yahoo.com",
+            "homepage": "https://github.com/vishalmandora/baum"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "illuminate/console": "7.*",
+        "illuminate/database": "7.*",
+        "illuminate/events": "7.*",
+        "illuminate/filesystem": "7.*",
+        "illuminate/support": "7.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~8.0",
+        "mockery/mockery": "~1.3",
+        "d11wtq/boris": "~1.0.10"
+    },
+    "autoload": {
+        "psr-0": {
+            "Baum": "src/"
+        }
     }
-  ],
-  "require": {
-    "php": ">=5.4.0",
-    "illuminate/console": "5.*",
-    "illuminate/database": "5.*",
-    "illuminate/events": "5.*",
-    "illuminate/filesystem": "5.*",
-    "illuminate/support": "5.*"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "~4.0",
-    "mockery/mockery": "~0.9",
-    "d11wtq/boris": "~1.0.10"
-  },
-  "autoload": {
-    "psr-0": {
-      "Baum": "src/"
-    }
-  }
 }
